@@ -1,4 +1,4 @@
-# `backend-go` — Microservice Sample Application
+# `backend-go` — Microservice Sample Application - Kumis
 
 Aplikasi microservice berbasis **Go 1.22** dan **Chi Router** yang dirancang sebagai target demonstrasi pipeline CI/CD Jenkins, GitOps ArgoCD, dan Envoy Gateway API.
 
@@ -6,11 +6,11 @@ Aplikasi microservice berbasis **Go 1.22** dan **Chi Router** yang dirancang seb
 
 ## 🚀 Endpoint API
 
-| Method | Endpoint | Deskripsi | Contoh Response |
-|---|---|---|---|
-| `GET` | `/healthz` | Health check probe & metadata build CI | `{"status":"ok","build_number":"12","commit_sha":"a1b2c3d","commit_message":"feat: update handler"}` |
-| `GET` | `/api/v1/hello` | Contoh pesan respon mikroservis | `{"message":"Hello from Be A DevOps Employee course! 🚀","version":"dev"}` |
-| `GET` | `/api/v1/version` | Versi aplikasi runtime | `{"version":"dev"}` |
+| Method | Endpoint          | Deskripsi                              | Contoh Response                                                                                      |
+| ------ | ----------------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `GET`  | `/healthz`        | Health check probe & metadata build CI | `{"status":"ok","build_number":"12","commit_sha":"a1b2c3d","commit_message":"feat: update handler"}` |
+| `GET`  | `/api/v1/hello`   | Contoh pesan respon mikroservis        | `{"message":"Hello from Be A DevOps Employee course! 🚀","version":"dev"}`                            |
+| `GET`  | `/api/v1/version` | Versi aplikasi runtime                 | `{"version":"dev"}`                                                                                  |
 
 ---
 
